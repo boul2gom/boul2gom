@@ -1,3 +1,5 @@
+name: Readme CI - Stats updater
+
 on:
   schedule:
     - cron: '0 */24 * * *' # every 24 hours
@@ -8,7 +10,7 @@ on:
 
 jobs:
   update:
-    name: Update README with latest stats
+    name: Update README.md
     runs-on: ubuntu-latest
     permissions:
       contents: write
