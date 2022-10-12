@@ -1,10 +1,15 @@
-<h1 align="center">nullptr-rs</h1>
+
 <h2 align="center">A French 🛠️ Soft, 🌐 Front and 🧭 DevOps developer</h2>
 
 <div align="center">Hi 👋, I'm a French developer, I'm 16 years old and I'm currently in high school. I'm a developer in the 🛠️ Soft, 🌐 Front and 🧭 DevOps fields</div>
 <div align="center">I'm currently working on my own projects, but I'm also a member of the Hyriode (https://hyriode.fr) team.</div>
 
 <br>
+
+<p align="center">
+  <img src="https://img.shields.io/github/discussions/Yggdrasil80/YggTools?label=Discussions&logo=Github" alt="Discussions">
+  <img src="https://img.shields.io/github/issues-raw/Yggdrasil80/YggTools?label=Issues&logo=Github" alt="Issues">
+  <img src="https://komarev.com/ghpvc/?username=nullptr-rs&color=blue&label=Profile%20views&style=flat" alt="Profile views">
 
 <div align="center">
   <a href="https://github.com/nullptr-rs/nullptr-rs/issues/new?assignees=&labels=bug&template=BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
@@ -17,15 +22,8 @@
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/github/discussions/Yggdrasil80/YggTools?label=Discussions&logo=Github" alt="Discussions">
-  <img src="https://img.shields.io/github/issues-raw/Yggdrasil80/YggTools?label=Issues&logo=Github" alt="Issues">
-  <img src="https://komarev.com/ghpvc/?username=nullptr-rs&color=blue&label=Profile%20views&style=flat" alt="Profile views">
-
-<p align="center">
-  <img src="https://img.shields.io/codefactor/grade/github/Yggdrasil80/YggTools/master?label=YggTools&logo=Codefactor" alt="Codefactor">
-  <img src="https://img.shields.io/codefactor/grade/github/nullptr-rs/doc-storage/master?label=Doc Storage&logo=Codefactor" alt="Codefactor">
-  <img src="https://img.shields.io/codefactor/grade/github/nullptr-rs/home-plugin-api/master?label=Home API&logo=Codefactor" alt="Codefactor">
-  <img src="https://img.shields.io/codefactor/grade/github/nullptr-rs/Cerberus/master?label=Cerberus&logo=Codefactor" alt="Codefactor">
+  <img src="profile-3d-contrib/profile-season-animate.svg" alt="Profile views" width="500" style="border-radius:20px">
+</p>
 
 # 📚 About me
 
@@ -39,7 +37,7 @@ The JetBrains IDEs are my best friends, I use them every day. I also use Visual 
 
 # 💻 Technologies
 
-### 🛠️ Software and 🌐 Front development
+## 🛠️ Software and 🌐 Front development
 - I love ❤️: 
   - <img align="center" width="24" alt="Rust" src="images/rust.png"/> Rust
   - <img align="center" width="24" alt="C++" src="images/cpp.png"/> C++
@@ -62,7 +60,7 @@ The JetBrains IDEs are my best friends, I use them every day. I also use Visual 
   - <img align="center" width="24" alt="Elixir" src="images/elixir.png"/> Elixir
   - <img align="center" width="24" alt="Kotlin" src="images/kotlin.png"/> Kotlin
 
-### 📦 Databases and 🔌 APIs
+## 📦 Databases and 🔌 APIs
 - I love ❤️:
   - <img align="center" width="24" alt="Mongo" src="images/mongodb.png"/> MongoDB
   - <img align="center" width="24" alt="Redis" src="images/redis.png"/> Redis
@@ -71,7 +69,7 @@ The JetBrains IDEs are my best friends, I use them every day. I also use Visual 
 - I have tried, but I'm not a fan of 🤔:
   - <img align="center" width="24" alt="MySQL" src="images/mysql.png"/> MySQL
 
-### 🛠️ Tools
+## 🛠️ Tools
 - I love ❤️:
   - <img align="center" width="24" alt="Git" src="images/git.png"/> Git
   - <img align="center" width="24" alt="Github" src="images/github.png"/> Github
@@ -81,3 +79,7 @@ The JetBrains IDEs are my best friends, I use them every day. I also use Visual 
   - <img align="center" width="24" alt="Grafana" src="images/grafana.png"/> Grafana
   - <img align="center" width="24" alt="AWS" src="images/aws.png"/> Amazon Web Services
   - <img align="center" width="20" alt="Azure" src="images/azure.png"/> Azure
+  
+  
+# 📊 Stats
+[![trophy](https://github-profile-trophy.vercel.app/?username=nullptr-rs&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)

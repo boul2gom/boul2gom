@@ -1,0 +1,35 @@
+on:
+  schedule:
+    - cron: '0 */24 * * *' # every 24 hours
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  update:
+    name: Update README with latest stats
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+      - name: Setup git
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email github-actions@github.com
+      - name: Move generated images
+        run: |
+          mv ./profile-3d-contrib/profile-season-animate.svg ./images/profile-season-animate.svg
+          rm -rf /profile-3d-contrib
+      - name: Commit & Push
+        run: |
+          git add --all
+          git commit -m "⏱️ Scheduled README update"
+          git push
