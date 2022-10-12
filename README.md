@@ -21,8 +21,15 @@
 
 ---
 
-<p align="center">
-  <img src="images/profile-season-animate.svg" alt="Profile stats" width="500" style="border-radius:20px">
+<style>
+	.image-rounded {
+		border-radius: 20px;
+		display: inline-block;
+	}
+</style>
+
+<p align="center" class="image-rounded">
+  <img src="images/profile-season-animate.svg" alt="Profile stats" width="500" style="border-radius: 20px">
 </p>
 
 # 📚 About me
