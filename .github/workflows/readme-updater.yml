@@ -11,7 +11,7 @@ jobs:
     name: Update README with latest stats
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
       packages: write
 
     steps:
