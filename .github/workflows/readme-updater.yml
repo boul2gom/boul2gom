@@ -29,7 +29,8 @@ jobs:
           mv ./profile-3d-contrib/profile-season-animate.svg ./images/profile-season-animate.svg
           rm -rf /profile-3d-contrib
       - name: Commit & Push
-        run: |
-          git add --all
-          git commit -m "⏱️ Scheduled README update"
-          git push
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: ⏱️ Scheduled README update
+          commit_user_name: github-actions[bot]
+          commit_user_email: github-actions[bot]@users.noreply.github.com

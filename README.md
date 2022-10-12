@@ -22,14 +22,14 @@
 ---
 
 <p align="center">
-  <img src="profile-3d-contrib/profile-season-animate.svg" alt="Profile views" width="500" style="border-radius:20px">
+  <img src="images/profile-season-animate.svg" alt="Profile stats" width="500" style="border-radius:20px">
 </p>
 
 # 📚 About me
 
 I love programming, but also learning new technologies, languages, etc. I always try to learn new things, so I'm open to new ideas and projects, and above all to difficult challenges.<br>
 I started programming actively in 2019, with a lot of Minecraft projects, but I also did some other projects, such as Discord bots, simple websites, etc.<br>
-The JetBrains IDEs are my best friends, I use them every day. I also use Visual Studio Code, but I don't like it as much as CLion or IntelliJ IDEA. 
+The JetBrains IDEs are my best friends, I use them every day. I also use Visual Studio Code, but I don't like it as much as CLion or IntelliJ IDEA.
 
 # 📫 Contact
 - 📭 Discord: `nullptr-rs#0001`
