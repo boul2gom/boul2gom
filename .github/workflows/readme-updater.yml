@@ -2,7 +2,7 @@ name: Readme CI - Stats updater
 
 on:
   schedule:
-    - cron: '0 */24 * * *' # every 24 hours
+    - cron: '0 0 */7 * *' # every 7 days
   push:
     branches:
       - master
