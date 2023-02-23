@@ -32,7 +32,7 @@ I started programming actively in 2019, with a lot of Minecraft projects, but I 
 The JetBrains IDEs are my best friends, I use them every day. I also use Visual Studio Code, but I don't like it as much as CLion or IntelliJ IDEA.
 
 # 📫 Contact
-- 📭 Discord: `nullptr-rs#0001`
+- 📭 Discord: `nullptr-rs#6086`
 - ✉️Email: `nullptr.rs@gmail.com`
 
 # 💻 Technologies
