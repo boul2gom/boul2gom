@@ -7,7 +7,7 @@ assignees: nullptr-rs
 
 ---
 ### 🔍 In which project did you find a bug?
-I found a bug in the project: `nullptr-rs/nullptr-rs`
+I found a bug in the project: `nullptr-rs/nullptr-tools`
 
 ### 🐛 What's the bug ?
 A short description of what the bug is.
