@@ -9,14 +9,14 @@
 <p align="center">
   <img src="https://img.shields.io/github/discussions/Yggdrasil80/YggTools?label=Discussions&logo=Github" alt="Discussions">
   <img src="https://img.shields.io/github/issues-raw/Yggdrasil80/YggTools?label=Issues&logo=Github" alt="Issues">
-  <img src="https://komarev.com/ghpvc/?username=nullptr-rs&color=blue&label=Profile%20views&style=flat" alt="Profile views">
+  <img src="https://komarev.com/ghpvc/?username=boul2gom&color=blue&label=Profile%20views&style=flat" alt="Profile views">
 
 <div align="center">
-  <a href="https://github.com/nullptr-rs/nullptr-rs/issues/new?assignees=&labels=bug&template=BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
+  <a href="https://github.com/boul2gom/boul2gom/issues/new?assignees=&labels=bug&template=BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
   ·
-  <a href="https://github.com/nullptr-rs/nullptr-rs/discussions/new?assignees=&labels=enhancement&title=feat%3A+">Request a Feature</a>
+  <a href="https://github.com/boul2gom/boul2gom/discussions/new?assignees=&labels=enhancement&title=feat%3A+">Request a Feature</a>
   ·
-  <a href="https://github.com/nullptr-rs/nullptr-rs/discussions/new?assignees=&labels=help%20wanted&title=ask%3A+">Ask a Question</a>
+  <a href="https://github.com/boul2gom/boul2gom/discussions/new?assignees=&labels=help%20wanted&title=ask%3A+">Ask a Question</a>
 </div>
 
 ---
@@ -32,8 +32,8 @@ I started programming actively in 2019, with a lot of Minecraft projects, but I 
 The JetBrains IDEs are my best friends, I use them every day. I also use Visual Studio Code, but I don't like it as much as CLion or IntelliJ IDEA.
 
 # 📫 Contact
-- 📭 Discord: `nullptr-rs#6086`
-- ✉️Email: `nullptr.rs@gmail.com`
+- 📭 Discord: `boul2gom#6086`
+- ✉️Email: `contact@boul2gom.fr`
 
 # 💻 Technologies
 
@@ -82,4 +82,4 @@ The JetBrains IDEs are my best friends, I use them every day. I also use Visual 
   
   
 # 📊 Stats
-[![trophy](https://github-profile-trophy.vercel.app/?username=nullptr-rs&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=boul2gom&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
