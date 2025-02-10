@@ -1,8 +1,8 @@
 
 <h2 align="center">A French 🛠️ Soft, 🌐 Front and 🧭 DevOps developer</h2>
 
-<div align="center">Hi 👋, I'm a French developer, I'm 16 years old and I'm currently in high school. I'm a developer in the 🛠️ Soft, 🌐 Front and 🧭 DevOps fields</div>
-<div align="center">I'm currently working on my own projects, but I'm also a member of the Hyriode (https://hyriode.fr) team.</div>
+<div align="center">Hi 👋, I'm a French developer, I'm 18 years old and I'm currently at the university. I'm a developer in the 🛠️ Soft, 🌐 Front and 🧭 DevOps fields</div>
+<div align="center">I'm currently working on many own projects, but I'm also a member of the Hyriode (https://hyriode.fr) team.</div>
 
 <br>
 
@@ -28,12 +28,11 @@
 # 📚 About me
 
 I love programming, but also learning new technologies, languages, etc. I always try to learn new things, so I'm open to new ideas and projects, and above all to difficult challenges.<br>
-I started programming actively in 2019, with a lot of Minecraft projects, but I also did some other projects, such as Discord bots, simple websites, etc.<br>
-The JetBrains IDEs are my best friends, I use them every day. I also use Visual Studio Code, but I don't like it as much as CLion or IntelliJ IDEA.
+I started programming actively in 2019, with a lot of Minecraft-related projects, but I also did some other projects, such as bots, websites, anti-cheats, orchestration systems, etc.
 
 # 📫 Contact
 - 📭 Discord: `boul2gom#6086`
-- ✉️Email: `contact@boul2gom.fr`
+- ✉️ Email: `contact@boul2gom.com`
 
 # 💻 Technologies
 
