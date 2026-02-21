@@ -33,9 +33,9 @@ jobs:
 
       - name: 📂 Move generated images
         run: |
-          mv ./profile-3d-contrib/profile-day.svg ./images/profile-day.svg
-          mv ./profile-3d-contrib/profile-night.svg ./images/profile-night.svg
-          rm -rf /profile-3d-contrib
+          mv ./profile-3d-contrib/day.svg ./images/profile-day.svg
+          mv ./profile-3d-contrib/night.svg ./images/profile-night.svg
+          rm -rf ./profile-3d-contrib
 
       - name: 📐 Round the generated SVG
         run: |
