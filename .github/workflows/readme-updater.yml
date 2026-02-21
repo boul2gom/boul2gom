@@ -14,7 +14,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      packages: write
 
     steps:
       - uses: actions/checkout@v4
@@ -30,6 +29,11 @@ jobs:
         run: |
           mv ./profile-3d-contrib/profile-season-animate.svg ./images/profile-season-animate.svg
           rm -rf /profile-3d-contrib
+      - name: Round the generated SVG
+        run: |
+          sed -i 's/<rect x="0" y="0" width="1280" height="850" class="fill-bg"><\/rect>/<rect x="0" y="0" width="1280" height="850" class="fill-bg" rx="20" ry="20"><\/rect>/g' ./images/profile-season-animate.svg
+          sed -i 's/<svg /<svg style="border-radius: 20px; overflow: hidden;" /g' ./images/profile-season-animate.svg
+          
       - name: Commit & Push
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
