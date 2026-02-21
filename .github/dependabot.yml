@@ -7,9 +7,11 @@ updates:
       interval: "daily"
       time: "09:00"
       timezone: "Europe/Paris"
+    reviewers:
+      - "boul2gom"
     assignees:
-      - "Yggdrasil80"
+      - "boul2gom"
     commit-message:
-      prefix: "[CI]"
-      include: scope
-    target-branch: "master"
+      prefix: "🔌 [Github Actions] "
+    target-branch: "develop"
+    rebase-strategy: "auto"
