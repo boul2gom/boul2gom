@@ -16,8 +16,17 @@ jobs:
       contents: write
 
     steps:
+      - name: 🔐 Generate ephemeral token from GitHub App
+        id: app-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ secrets.CI_APP_ID }}
+          private-key: ${{ secrets.CI_APP_KEY }}
+
       - name: 📁 Check out the repository
         uses: actions/checkout@v6.0.2
+        with:
+          token: ${{ steps.app-token.outputs.token }}
 
       - name: 📊 Generate 3D contribution chart
         uses: yoshi389111/github-profile-3d-contrib@v0.9.2
@@ -26,10 +35,18 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
           SETTING_JSON: configuration/profile-contrib.json
 
-      - name: 🪪 Set up Git identity
-        run: |
-          git config user.name github-actions[bot]
-          git config user.email github-actions[bot]@users.noreply.github.com
+      - name: 🔐 Import GPG Key and setup Git
+        uses: crazy-max/ghaction-import-gpg@v6.3.0
+        with:
+          gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.GPG_PASSPHRASE }}
+          trust_level: 5
+          git_user_signingkey: true
+          git_commit_gpgsign: true
+          git_tag_gpgsign: true
+          git_config_global: true
+          git_committer_name: "boul2gom-bot"
+          git_committer_email: "actions-bot@boul2gom.com"
 
       - name: 📂 Move generated images
         run: |
@@ -45,8 +62,7 @@ jobs:
           sed -i 's/<svg /<svg style="border-radius: 20px; overflow: hidden;" /g' ./images/profile-night.svg
           
       - name: 💾 Commit & Push
-        uses: stefanzweifel/git-auto-commit-action@v7.1.0
-        with:
-          commit_message: ⏱️ Scheduled README update
-          commit_user_name: github-actions[bot]
-          commit_user_email: github-actions[bot]@users.noreply.github.com
+        run: |
+          git add ./images/profile-day.svg ./images/profile-night.svg
+          git commit -m "⏱️ Scheduled README update"
+          git push
