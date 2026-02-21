@@ -21,8 +21,12 @@
 
 ---
 
-<p align="center">
-  <img src="images/profile-season-animate.svg" alt="Profile stats" width="500" style="border-radius: 30px; overflow: hidden;">
+<p align="center" >
+  <picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/boul2gom/boul2gom/master/images/profile-night.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/boul2gom/boul2gom/master/images/profile-day.svg" />
+    <img alt="github profile contributions chart" src="https://raw.githubusercontent.com/boul2gom/boul2gom/master/images/profile-day.svg" />
+  </picture>
 </p>
 
 # 📚 About me

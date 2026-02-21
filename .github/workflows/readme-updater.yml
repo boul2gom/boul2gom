@@ -2,7 +2,7 @@ name: Readme CI - Stats updater
 
 on:
   schedule:
-    - cron: '0 0 */7 * *' # every 7 days
+    - cron: '0 0 * * *' # Every 24 hours
   push:
     branches:
       - master
@@ -16,26 +16,36 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v6
-      - uses: yoshi389111/github-profile-3d-contrib@v0.9.2
+      - name: 📁 Check out the repository
+        uses: actions/checkout@v6.0.2
+
+      - name: 📊 Generate 3D contribution chart
+        uses: yoshi389111/github-profile-3d-contrib@v0.9.2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
-      - name: Setup git
+          SETTING_JSON: configuration/profile-contrib.json
+
+      - name: 🪪 Set up Git identity
         run: |
           git config user.name github-actions[bot]
-          git config user.email github-actions@github.com
-      - name: Move generated images
+          git config user.email github-actions[bot]@users.noreply.github.com
+
+      - name: 📂 Move generated images
         run: |
-          mv ./profile-3d-contrib/profile-season-animate.svg ./images/profile-season-animate.svg
+          mv ./profile-3d-contrib/profile-day.svg ./images/profile-day.svg
+          mv ./profile-3d-contrib/profile-night.svg ./images/profile-night.svg
           rm -rf /profile-3d-contrib
-      - name: Round the generated SVG
+
+      - name: 📐 Round the generated SVG
         run: |
-          sed -i 's/<rect x="0" y="0" width="1280" height="850" class="fill-bg"><\/rect>/<rect x="0" y="0" width="1280" height="850" class="fill-bg" rx="20" ry="20"><\/rect>/g' ./images/profile-season-animate.svg
-          sed -i 's/<svg /<svg style="border-radius: 20px; overflow: hidden;" /g' ./images/profile-season-animate.svg
+          sed -i 's/<rect x="0" y="0" width="1280" height="850" class="fill-bg"><\/rect>/<rect x="0" y="0" width="1280" height="850" class="fill-bg" rx="20" ry="20"><\/rect>/g' ./images/profile-day.svg
+          sed -i 's/<svg /<svg style="border-radius: 20px; overflow: hidden;" /g' ./images/profile-day.svg
+          sed -i 's/<rect x="0" y="0" width="1280" height="850" class="fill-bg"><\/rect>/<rect x="0" y="0" width="1280" height="850" class="fill-bg" rx="20" ry="20"><\/rect>/g' ./images/profile-night.svg
+          sed -i 's/<svg /<svg style="border-radius: 20px; overflow: hidden;" /g' ./images/profile-night.svg
           
-      - name: Commit & Push
-        uses: stefanzweifel/git-auto-commit-action@v7
+      - name: 💾 Commit & Push
+        uses: stefanzweifel/git-auto-commit-action@v7.1.0
         with:
           commit_message: ⏱️ Scheduled README update
           commit_user_name: github-actions[bot]
