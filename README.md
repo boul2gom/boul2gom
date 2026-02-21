@@ -22,7 +22,7 @@
 ---
 
 <p align="center">
-  <img src="images/profile-season-animate.svg" alt="Profile stats" width="500" style="border-radius: 20px">
+  <img src="images/profile-season-animate.svg" alt="Profile stats" width="500" style="border-radius: 30px; overflow: hidden;">
 </p>
 
 # 📚 About me
@@ -81,4 +81,6 @@ I started programming actively in 2019, with a lot of Minecraft-related projects
   
   
 # 📊 Stats
-[![trophy](https://github-profile-trophy.vercel.app/?username=boul2gom&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
+[![Trophy](https://trophy.ryglcloud.net/?username=boul2gom&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
+
+![](https://hit.yhype.me/github/profile?account_id=56512795)
